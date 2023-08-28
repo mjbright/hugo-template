@@ -1,0 +1,36 @@
+title = "@mjbright Consulting - Terraform/Azure Labs"
+#baseURL = "https://example.com"
+baseURL = "/"
+languageCode = "en-us"
+theme = "gohugo-theme-ananke"
+themesDir = "../../themes"
+
+MetaDataFormat = "yaml"
+DefaultContentLanguage = "en"
+SectionPagesMenu = "main"
+#Paginate = 3 # this is set low for demonstrating with dummy content. Set to a higher number
+Paginate = 6
+googleAnalytics = ""
+#enableRobotsTXT = true
+enableRobotsTXT = false
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[params]
+  favicon = ""
+  description = "@mjbright Consulting - Terraform/Azure Labs."
+  facebook = ""
+  twitter = "https://twitter.com/mjbright"
+  instagram = ""
+  youtube = ""
+  github = "https://github.com/mjbright"
+  linkedin = "https://www.linkedin.com/in/mjbright"
+  # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
+  #background_color_class = "bg-black"
+  #background_color_class = "bg-blue"
+  background_color_class = "bg-purple"
+  featured_image = "/images/LOGO.png"
+  recent_posts_number = 2

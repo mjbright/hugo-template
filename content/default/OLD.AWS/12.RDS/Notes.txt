@@ -1,0 +1,4 @@
+
+Excellent question, and something I should have included. The provider/AWS requires that you supply a password when creating the database, so the simplest way is either to supply it on the command line or bake it into your Terraform config and then update it in the AWS console. We’ve tried both, and both are, as you suggest, tedious to work with, but once the DB is set up, you can update and store the password elsewhere and use a lifecycle policy to ignore any future password diffs in the Terraform.
+
+

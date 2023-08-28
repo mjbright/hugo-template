@@ -1,0 +1,15 @@
+<footer class="bg-near-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="{{ .Site.BaseURL }}" >
+    &copy; {{ now.Format "2006" }} {{ .Site.Title }}
+  </a>
+  <h4 class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" >
+   LEFT
+  </h4>
+   <img src="/images/LOGO_v2_CROPPED.jpg" height="40" />
+  <h4 class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" >
+   RIGHT
+  </h4>
+  {{ partial "social-follow.html" . }}
+  </div>
+</footer>

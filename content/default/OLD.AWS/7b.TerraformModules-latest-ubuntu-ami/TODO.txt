@@ -1,0 +1,10 @@
+
+
+terraform get
+Let's use the terraform get function which works like terraform init but only pulls modules, not providers.
+Note: This is just to demonstrate that terraform get exists and can be used - the real use case would be to obtain the latest version of a remote module, when updated on GitHub or on the Terraform Registry.
+
+
+Note that the terraform get recognizes the existence and location of the local modules.
+If not present locally the modules would have been downloaded from the Terraform Registry modules (https://registry.terraform.io/browse/modules)
+

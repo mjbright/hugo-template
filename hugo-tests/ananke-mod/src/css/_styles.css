@@ -1,0 +1,28 @@
+/* Put your custom styles here and run `npm start` from the "src" directory on */
+
+* {
+    box-sizing: border-box;
+}
+
+figure {
+    padding: 1em;
+    background: white;
+}
+
+iframe {
+    width: 100%;
+}
+
+mark {
+	background-color: #ffea9e;
+}
+
+code {
+    background: rgba(23,52,72,.85);
+    color: #ffffff;
+    padding: .2em .325em;
+}
+
+.gist .blob-code-inner {
+    white-space: pre-wrap;
+}

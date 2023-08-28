@@ -1,0 +1,63 @@
+
+/* based on element: elem
+  e.g. h1 { color: #fff; }
+  e.g. pre code { color: #fff; }
+       for a 'code' tag inside a 'pre' tag
+*/
+/* based on class: [elem].class
+  e.g. .myclass { color: #fff; }
+  e.g. h1.myclass { color: #fff; }
+*/
+/* based on id: [elem]#id
+  e.g. #myid { color: #fff; }
+  e.g. h1#myid { color: #fff; }
+*/
+
+* {
+    font-size: medium;
+}
+
+/* highlighted code in with ```command``` */
+p code {
+    /*color: rgba(23,105,52,1.0);*/
+    color: rgba(25,25,105,1.0);
+    /* purple color: rgba(105,25,105,1.0); */
+    background: #dddddd;
+    padding: .1em .125em;
+
+    font-weight: 1000;
+    font: Consolas;
+    font-size: medium;
+}
+/* code block: code cell */
+pre code span {
+    /*color: rgba(23,85,52,1.0);*/
+    /* purple color: rgba(105,25,105,1.0); */
+    /* background: #e7d8e7; */
+
+    /* CODE CELL: give a darker background, bold text: */
+    background: #c7b8c7;
+    color: rgba(25,25,105,1.0);
+
+    /* no effect padding: 0px; */
+
+    /*font: Consolas;*/
+    font-weight: 1000;
+    font: code;
+    /* make font-size small here for printed PDF:*/
+    font-size: small;
+}
+/* code block: output cell */
+pre code {
+    /*color: #000000;*/
+    background: #e7d8e7;
+    /* purple color: rgba(105,25,105,1.0); */
+    /*rgba(255,25,105,1.0); */
+    color: rgba(25,25,105,1.0);
+
+    padding: 0px;
+
+    /*font: Consolas;*/
+    font: calisto;
+    font-size: small;
+}

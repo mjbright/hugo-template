@@ -1,0 +1,68 @@
+<svg width="590pt" height="260pt"
+ viewBox="0.00 0.00 590.07 260.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 256)">
+<title>%3</title>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-256 586.075,-256 586.075,4 -4,4"/>
+<!-- [root] aws_instance.example -->
+<g id="node1" class="node">
+<title>[root] aws_instance.example</title>
+<polygon fill="none" stroke="#000000" points="396.2843,-108 257.2843,-108 257.2843,-72 396.2843,-72 396.2843,-108"/>
+<text text-anchor="middle" x="326.7843" y="-86.3" font-family="Times,serif" font-size="14.00" fill="#000000">aws_instance.example</text>
+</g>
+<!-- [root] provider.aws -->
+<g id="node2" class="node">
+<title>[root] provider.aws</title>
+<polygon fill="none" stroke="#000000" points="326.7843,-36 246.8509,-18 326.7843,0 406.7177,-18 326.7843,-36"/>
+<text text-anchor="middle" x="326.7843" y="-14.3" font-family="Times,serif" font-size="14.00" fill="#000000">provider.aws</text>
+</g>
+<!-- [root] aws_instance.example&#45;&gt;[root] provider.aws -->
+<g id="edge1" class="edge">
+<title>[root] aws_instance.example&#45;&gt;[root] provider.aws</title>
+<path fill="none" stroke="#000000" d="M326.7843,-71.8314C326.7843,-64.131 326.7843,-54.9743 326.7843,-46.4166"/>
+<polygon fill="#000000" stroke="#000000" points="330.2844,-46.4132 326.7843,-36.4133 323.2844,-46.4133 330.2844,-46.4132"/>
+</g>
+<!-- [root] meta.count&#45;boundary (EachMode fixup) -->
+<g id="node3" class="node">
+<title>[root] meta.count&#45;boundary (EachMode fixup)</title>
+<ellipse fill="none" stroke="#000000" cx="176.7843" cy="-162" rx="176.5689" ry="18"/>
+<text text-anchor="middle" x="176.7843" y="-158.3" font-family="Times,serif" font-size="14.00" fill="#000000">[root] meta.count&#45;boundary (EachMode fixup)</text>
+</g>
+<!-- [root] meta.count&#45;boundary (EachMode fixup)&#45;&gt;[root] aws_instance.example -->
+<g id="edge2" class="edge">
+<title>[root] meta.count&#45;boundary (EachMode fixup)&#45;&gt;[root] aws_instance.example</title>
+<path fill="none" stroke="#000000" d="M213.4784,-144.3868C233.4999,-134.7765 258.4997,-122.7766 279.9191,-112.4953"/>
+<polygon fill="#000000" stroke="#000000" points="281.6645,-115.5399 289.1651,-108.0572 278.6353,-109.2292 281.6645,-115.5399"/>
+</g>
+<!-- [root] provider.aws (close) -->
+<g id="node4" class="node">
+<title>[root] provider.aws (close)</title>
+<ellipse fill="none" stroke="#000000" cx="476.7843" cy="-162" rx="105.0817" ry="18"/>
+<text text-anchor="middle" x="476.7843" y="-158.3" font-family="Times,serif" font-size="14.00" fill="#000000">[root] provider.aws (close)</text>
+</g>
+<!-- [root] provider.aws (close)&#45;&gt;[root] aws_instance.example -->
+<g id="edge3" class="edge">
+<title>[root] provider.aws (close)&#45;&gt;[root] aws_instance.example</title>
+<path fill="none" stroke="#000000" d="M441.2364,-144.937C420.9963,-135.2218 395.3974,-122.9343 373.5442,-112.4448"/>
+<polygon fill="#000000" stroke="#000000" points="374.9643,-109.2441 364.4345,-108.0721 371.9351,-115.5548 374.9643,-109.2441"/>
+</g>
+<!-- [root] root -->
+<g id="node5" class="node">
+<title>[root] root</title>
+<ellipse fill="none" stroke="#000000" cx="326.7843" cy="-234" rx="47.3916" ry="18"/>
+<text text-anchor="middle" x="326.7843" y="-230.3" font-family="Times,serif" font-size="14.00" fill="#000000">[root] root</text>
+</g>
+<!-- [root] root&#45;&gt;[root] meta.count&#45;boundary (EachMode fixup) -->
+<g id="edge4" class="edge">
+<title>[root] root&#45;&gt;[root] meta.count&#45;boundary (EachMode fixup)</title>
+<path fill="none" stroke="#000000" d="M297.1491,-219.7751C275.8752,-209.5636 246.8009,-195.608 222.5569,-183.9708"/>
+<polygon fill="#000000" stroke="#000000" points="224.0578,-180.809 213.5279,-179.6369 221.0286,-187.1196 224.0578,-180.809"/>
+</g>
+<!-- [root] root&#45;&gt;[root] provider.aws (close) -->
+<g id="edge5" class="edge">
+<title>[root] root&#45;&gt;[root] provider.aws (close)</title>
+<path fill="none" stroke="#000000" d="M356.4195,-219.7751C378.072,-209.3819 407.8049,-195.1101 432.3013,-183.3519"/>
+<polygon fill="#000000" stroke="#000000" points="433.9049,-186.4645 441.4056,-178.9818 430.8758,-180.1538 433.9049,-186.4645"/>
+</g>
+</g>
+</svg>
+
